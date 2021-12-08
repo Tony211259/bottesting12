@@ -684,88 +684,6 @@ ${petik}│◦ ${prefix}upswteks
 │◦ ${prefix}upswimage
 │◦ ${prefix}upswvideo${petik}
 │
-├❑「 *NSFW & SFW* 」
-│
-${petik}│◦ ${prefix}ahegao
-│◦ ${prefix}ass
-│◦ ${prefix}bdsm
-│◦ ${prefix}blowjob
-│◦ ${prefix}blowjob2
-│◦ ${prefix}cuckold
-│◦ ${prefix}cum
-│◦ ${prefix}ero
-│◦ ${prefix}femdom
-│◦ ${prefix}foot
-│◦ ${prefix}gangbang
-│◦ ${prefix}glasses
-│◦ ${prefix}jahy
-│◦ ${prefix}manga
-│◦ ${prefix}masturbation
-│◦ ${prefix}neko
-│◦ ${prefix}orgy
-│◦ ${prefix}panties
-│◦ ${prefix}pussy
-│◦ ${prefix}tentacles
-│◦ ${prefix}thighs
-│◦ ${prefix}yuri
-│◦ ${prefix}feet
-│◦ ${prefix}lewdkemo
-│◦ ${prefix}woof
-│◦ ${prefix}gasm
-│◦ ${prefix}solo
-│◦ ${prefix}8ball
-│◦ ${prefix}goose
-│◦ ${prefix}avatar
-│◦ ${prefix}hololewd
-│◦ ${prefix}gecg
-│◦ ${prefix}holo
-│◦ ${prefix}fox_girl
-│◦ ${prefix}tits
-│◦ ${prefix}eroyuri
-│◦ ${prefix}holoyero
-│◦ ${prefix}lizard
-│◦ ${prefix}keta
-│◦ ${prefix}eron
-│◦ ${prefix}erok
-│◦ ${prefix}kemonomimi
-│◦ ${prefix}cum_jpg
-│◦ ${prefix}nsfw_avatar
-│◦ ${prefix}erofeet
-│◦ ${prefix}meow
-│◦ ${prefix}wallpaper
-│◦ ${prefix}waifu
-│◦ ${prefix}trap
-│◦ ${prefix}lewd
-│◦ ${prefix}pussy_jpg
-│◦ ${prefix}futanari
-│◦ ${prefix}lewdk
-│◦ ${prefix}solog
-│◦ ${prefix}smug
-│◦ ${prefix}cum
-│◦ ${prefix}slap
-│◦ ${prefix}les
-│◦ ${prefix}erokemo
-│◦ ${prefix}bj
-│◦ ${prefix}pwankg
-│◦ ${prefix}pat
-│◦ ${prefix}poke
-│◦ ${prefix}feed
-│◦ ${prefix}nsfw_neko_gif
-│◦ ${prefix}pussy
-│◦ ${prefix}feetg
-│◦ ${prefix}baka
-│◦ ${prefix}hug
-│◦ ${prefix}kiss
-│◦ ${prefix}tickle
-│◦ ${prefix}spank
-│◦ ${prefix}kuni
-│◦ ${prefix}classic
-│◦ ${prefix}boobs
-│◦ ${prefix}anal
-│◦ ${prefix}ngif
-│◦ ${prefix}cuddle
-│◦ ${prefix}zettai${petik}
-│
 ├❑ 「 *STC  MENU* 」
 │
 ${petik}│◦ ${prefix}awoawo
@@ -790,20 +708,6 @@ ${petik}│◦ ${prefix}awoawo
 │◦ ${prefix}kawan_sponsbob
 │◦ ${prefix}tyni${petik}
 │
-├❑「 *CECAN  MENU* 」 
-│
-${petik}│◦ ${prefix}china
-│◦ ${prefix}indonesia
-│◦ ${prefix}malaysia
-│◦ ${prefix}thailand
-│◦ ${prefix}korea
-│◦ ${prefix}japan
-│◦ ${prefix}vietnam
-│◦ ${prefix}jenni
-│◦ ${prefix}jiso
-│◦ ${prefix}lisa
-│◦ ${prefix}rose${petik}
-│
 ├❑「 *QUOTES  MENU* 」 
 │
 │◦ ${petik}${prefix}katailham${petik}  
@@ -813,81 +717,6 @@ ${petik}│◦ ${prefix}china
 │◦ ${petik}${prefix}katacaklontong${petik}  
 │◦ ${petik}${prefix}katadilan${petik}  
 │
-├❑「 *COGAN  MENU* 」 
-│
-│◦ ${petik}${prefix}baekhyung${petik}  
-│◦ ${petik}${prefix}dohkyungsoo${petik}  
-│◦ ${petik}${prefix}huangzitao${petik}  
-│◦ ${petik}${prefix}jhope${petik}  
-│◦ ${petik}${prefix}jimin${petik} 
-│◦ ${petik}${prefix}jungkook${petik} 
-│◦ ${petik}${prefix}kimjondae${petik}  
-│◦ ${petik}${prefix}kimjong${petik}  
-│◦ ${petik}${prefix}kimjunmyeon${petik}  
-│◦ ${petik}${prefix}kimminseok${petik} 
-│◦ ${petik}${prefix}kimnanjoon${petik}  
-│◦ ${petik}${prefix}kimseok${petik}  
-│◦ ${petik}${prefix}kimtaehyung${petik}  
-│◦ ${petik}${prefix}luhan${petik}  
-│◦ ${petik}${prefix}ohsehun${petik} 
-│◦ ${petik}${prefix}parkchanyeol${petik} 
-│◦ ${petik}${prefix}suga${petik}  
-│◦ ${petik}${prefix}wuyifan${petik}
-│
-├❑「 *ASUPAN  MENU* 」
-│
-${petik}│◦ ${prefix}rikagusriani 
-│◦ ${prefix}ukhty 
-│◦ ${prefix}santuy 
-│◦ ${prefix}geayubi   
-│◦ ${prefix}bocil
-│◦ ${prefix}asupan
-│◦ ${prefix}chika 
-│◦ ${prefix}delvira 
-│◦ ${prefix}ayu   
-│◦ ${prefix}bunga
-│◦ ${prefix}aura
-│◦ ${prefix}nisa 
-│◦ ${prefix}ziva 
-│◦ ${prefix}yana   
-│◦ ${prefix}viona
-│◦ ${prefix}syania
-│◦ ${prefix}riri   
-│◦ ${prefix}syifa
-│◦ ${prefix}mama_gina
-│◦ ${prefix}alcakenya 
-│◦ ${prefix}mangayutri${petik}
-│
-├❑「 *ANIME  MENU* 」
-│
-│◦ ${petik}${prefix}anna${petik}
-│◦ ${petik}${prefix}asuna_yuki${petik} 
-│◦ ${petik}${prefix}ayuzawa${petik} 
-│◦ ${petik}${prefix}chitoge${petik} 
-│◦ ${petik}${prefix}emilia${petik}
-│◦ ${petik}${prefix}erza${petik} 
-│◦ ${petik}${prefix}hinata${petik} 
-│◦ ${petik}${prefix}inori${petik} 
-│◦ ${petik}${prefix}kaga_kouko${petik} 
-│◦ ${petik}${prefix}kaori_miyazono${petik} 
-│◦ ${petik}${prefix}kotori_minami${petik}
-│◦ ${petik}${prefix}mikasa${petik} 
-│◦ ${petik}${prefix}mio_akiyama${petik} 
-│◦ ${petik}${prefix}mizore_sirayuki${petik} 
-│◦ ${petik}${prefix}nakiri_alice${petik} 
-│◦ ${petik}${prefix}naruto${petik} 
-│◦ ${petik}${prefix}riyas_gremori${petik}
-│◦ ${petik}${prefix}sakura${petik} 
-│◦ ${petik}${prefix}sasuke${petik} 
-│◦ ${petik}${prefix}sento_isuzu${petik} 
-│◦ ${petik}${prefix}shana${petik} 
-│◦ ${petik}${prefix}shiina${petik} 
-│◦ ${petik}${prefix}shinka${petik}
-│◦ ${petik}${prefix}winry${petik}
-│◦ ${petik}${prefix}yukino${petik} 
-│◦ ${petik}${prefix}yuzuki${petik} 
-│◦ ${petik}${prefix}akame${petik}
-│◦ ${petik}${prefix}mikosiba${petik}
 │
 └─❑「 MENU BOT 」
 
