@@ -97,6 +97,8 @@ ${petik}├❒ ${prefix}tiktokwm${petik} _link_
 ${petik}├❒ ${prefix}tiktoknowm${petik} _link_
 ${petik}├❒ ${prefix}tiktokaudio${petik} _link_
 ${petik}├❒ ${prefix}fb${petik} _link_
+${petik}├❒ ${prefix}fb1${petik} _link_
+${petik}├❒ ${prefix}fb2${petik} _link_
 ${petik}├❒ ${prefix}brainly${petik} _query_
 ${petik}├❒ ${prefix}image${petik} _query_
 ${petik}├❒ ${prefix}pinterest${petik} _query_
