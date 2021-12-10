@@ -3908,6 +3908,18 @@ break
 		reply(ini_pesan)	
 		reply(ini_pesan2)	
 		break 
+            case 'fbr':
+		if (args.length < 1) return reply('Urlnya mana om')
+                link = q
+		fbdl = await fetchJson(`https://docs-jojo.herokuapp.com/api/fb?url=${link}`, {method: 'get'})					
+		t = fbdl.result[0]
+		ini_pesan = `*Resolusi* : ${t.quality}`
+		u = fbdl.result[1]
+		ini_pesan2 = `*Resolusi* : ${u.quality}`
+		reply(`Resolusi tersedia: `)
+		reply(ini_pesan)	
+		reply(ini_pesan2)	
+		break 
 	case 'trax':
 		trax = await fetchJson(`https://now-dot-playing-dot-radiojarcom.appspot.com/api/stations/rrqf78p3bnzuv/now_playing/`, {method: 'get'})
 		list = `*Trax FM Now Playing!!*\n\n\n *Judul* : ${trax.title}\n*Artist* : ${trax.artist}\n\n\n*STREAM NOW*\n*TraxOnSky* : https://traxonsky.com/streaming/\n*Vidio* :https://www.vidio.com/live/7055-trax-fm\n*RadioJar* : https://stream.radiojar.com/rrqf78p3bnzuv.mp3`
