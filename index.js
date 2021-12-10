@@ -3602,6 +3602,7 @@ break
 							sendButLocation(from, infobot(status, offline,latensii, totalchat, giid, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, ownerNumberrr,runtime, kyun) , `${enter}${enter}${botname} 〽️ | By ${ownername}`,infobopot,  [{"buttonId": 'gcbot',"buttonText": {"displayText": "GROUP BOT"},"type": "RESPONSE"}], {contextInfo:{"mentionedJid": [ownerNumberrr]}})
 							break
 			case 'play2':
+		case 'play2':
 					if (args.length === 0) return reply(`Kirim perintah *${prefix}play* _Judul lagu yang akan dicari_`)
 		            var srch = args.join('')
 		    		aramas = await yts(srch);
@@ -3614,7 +3615,7 @@ break
 		                        axios.get(`https://tinyurl.com/api-create.php?url=${dl_link}`)
 		                        .then(async (a) => {
 		                        if (Number(filesize) >= 100000) return sendMediaURL(from, thumb, `*PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Filesize* : ${filesizeF}\n*Link* : ${a.data}\n\n_Untuk durasi lebih dari batas disajikan dalam mektuk link_`)
-		                        const captions = `🎧 *PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Size* : ${filesizeF}\n*Link* : ${a.data}\n\n_Silahkan tunggu file media sedang dikirim mungkin butuh beberapa menit_`
+		                        const captions = `🎧 *PLAY MUSIC*\n\n*Title* : ${title}\n*Ext* : MP3\n*Link* : ${a.data}\n\n_Silahkan tunggu file media (${title}) sedang dikirim`
 		                       await sendMediaURL(from, thumb, captions)
 		                        sendMediaURL(from, dl_link).catch(() => reply('error'))
 		                        })                
