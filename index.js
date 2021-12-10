@@ -3912,13 +3912,13 @@ break
 		if (args.length < 1) return reply('Urlnya mana om')
                 link = q
 		fbdl = await fetchJson(`https://docs-jojo.herokuapp.com/api/fb?url=${link}`, {method: 'get'})					
-		t = fbdl.result[0]
-		ini_pesan = `*Resolusi* : ${t.quality}`
-		u = fbdl.result[1]
-		ini_pesan2 = `*Resolusi* : ${u.quality}`
+		a = fbdl.result[0]
+		ini_pesana = `*Resolusi* : ${a.quality}`
+		b = fbdl.result[1]
+		ini_pesanb = `*Resolusi* : ${b.quality}`
 		reply(`Resolusi tersedia: `)
-		reply(ini_pesan)	
-		reply(ini_pesan2)	
+		reply(ini_pesana)	
+		reply(ini_pesanb)	
 		break 
 	case 'trax':
 		trax = await fetchJson(`https://now-dot-playing-dot-radiojarcom.appspot.com/api/stations/rrqf78p3bnzuv/now_playing/`, {method: 'get'})
