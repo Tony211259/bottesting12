@@ -3923,6 +3923,41 @@ break
 		list = `*Trax FM Now Playing!!*\n\n\n *Judul* : ${trax.title}\n*Artist* : ${trax.artist}\n\n\n*STREAM NOW*\n*TraxOnSky* : https://traxonsky.com/streaming/\n*Vidio* :https://www.vidio.com/live/7055-trax-fm\n*RadioJar* : https://stream.radiojar.com/rrqf78p3bnzuv.mp3`
 		reply(list.trim())
 		break 
+				case 'ytmp4v2':
+					if (args.length < 1) return reply('Urlnya mana gan?')
+					if (!isUrl(args[0]) && !args[0].includes('youtu.be')) return reply(mess.error.Iv)
+					anu = await fetchJson(`https://api.zeks.xyz/api/ytmp4?url=${args[0]}&apikey=apivinz`, {method: 'get'})
+					if (anu.error) return reply(anu.error)
+					ytt = `*Title:* ${anu.result.title}\n*Size:* ${anu.result.size}\n\nTunggu Sebentar, sedang mengirimkan file\n`
+					buff = await getBuffer(anu.result.thumbnail)
+					buffer = await getBuffer(anu.result.url_video)
+					alpha.sendMessage(from, buff, image, {quoted: mek, caption: ytt})
+					alpha.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.result.title}.mp4`, quoted: mek, caption: anu.result.title })
+					break 
+				case 'fbdlhd':
+					if (args.length < 1) return reply('Urlnya mana gan?')
+					if (!isUrl(args[0]) && !args[0].includes('facebook.com')) return reply(mess.error.Iv)
+					anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/fb?url=${args[0]}`, {method: 'get'})					
+					if (anu.error) return reply(anu.error)
+					t = anu.result[0]
+					fbb = `*Resoulsi:* ${t.quality}\n\nTunggu sebentar, sedang mengirim file`
+					buff = await getBuffer(anu.thumbnail)
+					buffer = await getBuffer(t.download)
+					alpha.sendMessage(from, buff, image, {quoted: mek, caption: fbb})
+					alpha.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.result.title}.mp4`, quoted: mek, caption: 'Nih Gan'})
+					break 
+				case 'fbdlsd':
+					if (args.length < 1) return reply('Urlnya mana gan?')
+					if (!isUrl(args[0]) && !args[0].includes('facebook.com')) return reply(mess.error.Iv)
+					anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/fb?url=${args[0]}`, {method: 'get'})					
+					if (anu.error) return reply(anu.error)
+					t = anu.result[1]
+					fbb = `*Resoulsi:* ${t.quality}\n\nTunggu sebentar, sedang mengirim file`
+					buff = await getBuffer(anu.thumbnail)
+					buffer = await getBuffer(t.download)
+					alpha.sendMessage(from, buff, image, {quoted: mek, caption: fbb})
+					alpha.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.result.title}.mp4`, quoted: mek, caption: 'Nih Gan'})
+					break 
 case 'linkwa':
 case 'grupwa':
 case 'groupwa':
