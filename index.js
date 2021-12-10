@@ -112,6 +112,7 @@ const tebakgambar = JSON.parse(fs.readFileSync('./src/tebakgambar.json'))
 const caklontong = JSON.parse(fs.readFileSync('./src/caklontong.json'))
 const family = JSON.parse(fs.readFileSync('./src/family100.json'))
 const tebakanime = JSON.parse(fs.readFileSync('./src/tebakanime.json'))
+const asahotak = JSON.parse(fs.readFileSync('./src/asahotak.json'))
 const  sewa = JSON.parse(fs.readFileSync('./src/sewa.json'));
 const event = JSON.parse(fs.readFileSync('./src/event.json'))
 
@@ -2057,6 +2058,17 @@ if (tebakanime.hasOwnProperty(sender.split('@')[0]) && !isCmd) {
                     reply2("Selamat🥳 Jawaban kamu benar")
                     delete tebakanime[sender.split('@')[0]]
                     fs.writeFileSync("./database/tebakanime.json", JSON.stringify(tebakanime))
+                } else {
+                    reply2("Jawaban Salah!")
+                }
+            }
+ // ASAH OTAK ( QUIZ ) 
+if (asahotak.hasOwnProperty(sender.split('@')[0]) && !isCmd) {
+                jawaban = asahotak[sender.split('@')[0]]
+                if (budy.toLowerCase() == jawab) {
+                    reply2("Selamat🥳 Jawaban kamu benar")
+                    delete asahotak[sender.split('@')[0]]
+                    fs.writeFileSync("./database/asahotak.json", JSON.stringify(asahotak))
                 } else {
                     reply2("Jawaban Salah!")
                 }
@@ -6211,6 +6223,22 @@ break
                         reply("Jawaban: " + jawaban)
                         delete tebakanime[sender.split('@')[0]]
                         fs.writeFileSync("./src/tebakanime.json", JSON.stringify(tebakanime))
+                    }
+                    break
+			case 'asahotak':case 'quiz':case 'kuis':
+					if (asahotak.hasOwnProperty(sender.split('@')[0])) return reply("Masih ada permainan yang sedang berlangsung")
+                    ash = await fetchJson(`https://adiofficial-api.herokuapp.com/api/game/asahotak?apikey=klYQmdTHG2`)
+                    soal = ash.pertanyaan
+                    jawab = ash.jawaban
+                    asahotak[sender.split('@')[0]] = jawab.toLowerCase()
+                    fs.writeFileSync("./src/asahotak.json", JSON.stringify(asahotak))
+                    console.log(jawab)
+                    reply(`*Pernyataan*: ${soal}\n\nReply Pertanyaan ini dalah 15 detik untuk menjawab soal`)
+                   await sleep(15000)
+                    if (asahotak.hasOwnProperty(sender.split('@')[0])) {
+                        reply("Jawaban: " + jawab)
+                        delete asahotak[sender.split('@')[0]]
+                        fs.writeFileSync("./src/asahotak.json", JSON.stringify(asahotak))
                     }
                     break
             case 'suit': 
