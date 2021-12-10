@@ -5549,9 +5549,16 @@ case 'linkgroup':
             case 'ss':
                 if (args.length < 1) return reply('Urlnya mana om')
 					teks = q
-					anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?&url=${teks}`)
+					anu = await fetchJson(`https://shot.screenshotapi.net/screenshot?token=KQJSZR4-G5F4QAV-NDV17FH-XTK0NTA&url=${teks}`)
 					buff = await getBuffer(anu.screenshot)
 					alpha.sendMessage(from, buff, image, {quoted: mek, caption : teks})
+					break
+            case 'ssfull':case 'ssf':
+                if (args.length < 1) return reply('Urlnya mana om')
+					kait = q
+					pg = await fetchJson(`https://shot.screenshotapi.net/screenshot?token=KQJSZR4-G5F4QAV-NDV17FH-XTK0NTA&url=${kait}&full_page=true`)
+					pgf = await getBuffer(pg.screenshot)
+					alpha.sendMessage(from, pgf, image, {quoted: mek, caption : teks})
 					break
 			case 'artinama':
                 if (args.length < 1) return reply('Apa yang mau dicari um?')
