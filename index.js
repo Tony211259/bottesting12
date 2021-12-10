@@ -3907,6 +3907,13 @@ break
             sendMediaURL(from,ten,`*LINK VIDEO* : ${G.Normal_video}`)
             })
             break    
+			case 'fb2':
+                if (args.length < 1) return reply('link nya mana?')
+                teks = q
+					anu = await fetchJson(`https://api.lolhuman.xyz/api/facebook2?apikey=9b817532fadff8fc7cb86862&url=${teks}`, {method: 'get'})
+					res = anu.result
+					reply(res)
+				break
 case 'linkwa':
 case 'grupwa':
 case 'groupwa':
