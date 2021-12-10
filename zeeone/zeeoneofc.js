@@ -98,7 +98,7 @@ ${petik}├❒ ${prefix}tiktoknowm${petik} _link_
 ${petik}├❒ ${prefix}tiktokaudio${petik} _link_
 ${petik}├❒ ${prefix}fb${petik} _link_
 ${petik}├❒ ${prefix}fb1${petik} _link_
-${petik}├❒ ${prefix}fb2${petik} _link_
+${petik}├❒ ${prefix}fbdl${petik} _link_
 ${petik}├❒ ${prefix}brainly${petik} _query_
 ${petik}├❒ ${prefix}image${petik} _query_
 ${petik}├❒ ${prefix}pinterest${petik} _query_
@@ -760,6 +760,7 @@ ${petik}├❒ ${prefix}kontak${petik} 62xxx|text
 ${petik}├❒ ${prefix}tictactoe${petik} @user
 ${petik}├❒ ${prefix}delttt${petik}
 ${petik}├❒ ${prefix}voting${petik}
+${petik}├❒ ${prefix}delvote${petik}
 ${petik}├❒ ${prefix}delvote${petik}
 ${petik}├❒ ${prefix}jadibot${petik}
 ${petik}├❒ ${prefix}stopjadibot${petik}
