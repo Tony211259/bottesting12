@@ -87,6 +87,7 @@ ${petik}├❒ ${prefix}playmp4${petik} _query_
 ${petik}├❒ ${prefix}video${petik} _query_
 ${petik}├❒ ${prefix}ytmp3${petik} _link_
 ${petik}├❒ ${prefix}ytmp4${petik} _link_
+${petik}├❒ ${prefix}ytmp4v2${petik} _link_
 ${petik}├❒ ${prefix}ig${petik} _link_
 ${petik}├❒ ${prefix}igphoto${petik} _link_
 ${petik}├❒ ${prefix}igvideo${petik} _link_
@@ -99,6 +100,14 @@ ${petik}├❒ ${prefix}tiktokaudio${petik} _link_
 ${petik}├❒ ${prefix}fb${petik} _link_
 ${petik}├❒ ${prefix}fb1${petik} _link_
 ${petik}├❒ ${prefix}fbdl${petik} _link_
+${petik}├❒ ${prefix}fbdlhd${petik} _link_
+${petik}├❒ ${prefix}fbhd${petik} _link_
+${petik}├❒ ${prefix}fhd${petik} _link_
+${petik}├❒ ${prefix}fh${petik} _link_
+${petik}├❒ ${prefix}fbdlsd${petik} _link_
+${petik}├❒ ${prefix}fbsd${petik} _link_
+${petik}├❒ ${prefix}fsd${petik} _link_
+${petik}├❒ ${prefix}fs${petik} _link_
 ${petik}├❒ ${prefix}brainly${petik} _query_
 ${petik}├❒ ${prefix}image${petik} _query_
 ${petik}├❒ ${prefix}pinterest${petik} _query_
