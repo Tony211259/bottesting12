@@ -3932,6 +3932,19 @@ break
 		reply(ini_pesana)	
 		reply(ini_pesanb)	
 		break 
+				
+		case 'tsticker': case'ts':
+		if (args.length < 1) return reply('Urlnya mana gan?')
+		if (!isUrl(args[0]) && !args[0].includes('t.me')) return reply(mess.error.Iv)
+                    ini_url = args[0]
+                    ini_url = await fetchJson(`https://api.lolhuman.xyz/api/telestick?apikey=9b817532fadff8fc7cb86862&url=${ini_url}`)
+                    ini_sticker = ini_url.result.sticker
+                    for (sticker_ in ini_sticker) {
+                        ini_buffer = await getBuffer(ini_sticker[sticker_])
+                        alpha.sendMessage(from, ini_buffer, sticker)
+                    }
+                    break
+
 	case 'trax':
 		trax = await fetchJson(`https://now-dot-playing-dot-radiojarcom.appspot.com/api/stations/rrqf78p3bnzuv/now_playing/`, {method: 'get'})
 		list = `*Trax FM Now Playing!!*\n\n\n *Judul* : ${trax.title}\n*Artist* : ${trax.artist}\n\n\n*STREAM NOW*\n*TraxOnSky* : https://traxonsky.com/streaming/\n*Vidio* :https://www.vidio.com/live/7055-trax-fm\n*RadioJar* : https://stream.radiojar.com/rrqf78p3bnzuv.mp3`
