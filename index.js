@@ -3920,6 +3920,14 @@ break
 		reply(ini_pesan)	
 		reply(ini_pesan2)	
 		break 
+            case 'lirik2':case 'l2':
+		if (args.length < 1) return reply('Urlnya mana om')
+                link = q
+		fbdl = await fetchJson(`https://api-tede.herokuapp.com/api/lirik?l=${link}`, {method: 'get'})					
+		t = fbdl.data
+		ini_pesan = `${t}`
+		reply(ini_pesan)	
+		break 
             case 'fbr':
 		if (args.length < 1) return reply('Urlnya mana om')
                 link = q
