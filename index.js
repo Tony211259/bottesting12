@@ -3932,6 +3932,17 @@ break
 		reply(ini_pesana)	
 		reply(ini_pesanb)	
 		break 
+			
+				case 'tiktok2':case 'ttdl':case 'ttnowm':case 'ttnw':
+					if (args.length < 1) return reply('Urlnya mana gan?')
+					if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(mess.error.Iv)
+					anu = await fetchJson(`https://revita.herokuapp.com/api/download/tiktok2?apikey=ApiRevita&url=${args[0]}`, {method: 'get'})					
+					if (anu.error) return reply(anu.error)
+					t = anu.result
+					buffer = await getBuffer(t.noWaterMarkUrl)
+					alpha.sendMessage(from, buffer, video, {mimetype: 'video/mp4', filename: `${anu.result.caption}.mp4`, quoted: mek, caption: 'Nih'})
+					break 
+				
 				
 		case 'tsticker': case'ts':
 		if (args.length < 1) return reply('Urlnya mana gan?')
