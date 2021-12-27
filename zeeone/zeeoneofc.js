@@ -213,6 +213,8 @@ ${petik}│◦ ${prefix}pinterest2${petik} _query_
 ${petik}│◦ ${prefix}playstore${petik} _query_
 ${petik}│◦ ${prefix}gcwa${petik} _query_
 ${petik}│◦ ${prefix}lirik${petik} _query_
+${petik}│◦ ${prefix}lirik2${petik} _query_
+${petik}│◦ ${prefix}l2${petik} _query_
 ${petik}│◦ ${prefix}komiku${petik} _query_
 ${petik}│◦ ${prefix}anime${petik} _random_
 │
