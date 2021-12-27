@@ -187,9 +187,13 @@ ${petik}│◦ ${prefix}igvideo${petik} _link_
 ${petik}│◦ ${prefix}igtv${petik} _link_
 ${petik}│◦ ${prefix}igreels${petik} _link_
 ${petik}│◦ ${prefix}twitter${petik} _link_
+${petik}│◦ ${prefix}tt{petik} _link_
+${petik}│◦ ${prefix}ttdl${petik} _link_
+${petik}│◦ ${prefix}ttnowm${petik} _link_
 ${petik}│◦ ${prefix}tiktokwm${petik} _link_
 ${petik}│◦ ${prefix}tiktoknowm${petik} _link_
 ${petik}│◦ ${prefix}tiktokaudio${petik} _link_
+${petik}│◦ ${prefix}tiktokaudio2${petik} _link_
 ${petik}│◦ ${prefix}fbr${petik} _link_
 ${petik}├◦ ${prefix}fb${petik} _link_
 ${petik}├◦ ${prefix}fb1${petik} _link_
